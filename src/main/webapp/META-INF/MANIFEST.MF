@@ -1,0 +1,95 @@
+Manifest-Version: 1.0
+Class-Path: wsdl/WEB-INF/lib/dubbo-2.5.3.jar wsdl/WEB-INF/lib/spring-2
+ .5.6.SEC03.jar wsdl/WEB-INF/lib/javassist-3.15.0-GA.jar wsdl/WEB-INF/
+ lib/netty-3.2.5.Final.jar wsdl/WEB-INF/lib/cxf-rt-frontend-simple-2.6
+ .1.jar wsdl/WEB-INF/lib/cxf-api-2.6.1.jar wsdl/WEB-INF/lib/cxf-rt-cor
+ e-2.6.1.jar wsdl/WEB-INF/lib/cxf-rt-bindings-soap-2.6.1.jar wsdl/WEB-
+ INF/lib/cxf-rt-databinding-jaxb-2.6.1.jar wsdl/WEB-INF/lib/cxf-rt-tra
+ nsports-http-2.6.1.jar wsdl/WEB-INF/lib/cxf-bundle-2.6.1.jar wsdl/WEB
+ -INF/lib/velocity-1.7.jar wsdl/WEB-INF/lib/commons-collections-3.2.1.
+ jar wsdl/WEB-INF/lib/wsdl4j-1.6.2.jar wsdl/WEB-INF/lib/jaxb-xjc-2.2.5
+ .jar wsdl/WEB-INF/lib/jaxb-impl-2.2.5.jar wsdl/WEB-INF/lib/saaj-api-1
+ .3.4.jar wsdl/WEB-INF/lib/geronimo-ws-metadata_2.0_spec-1.1.3.jar wsd
+ l/WEB-INF/lib/xmlschema-core-2.0.2.jar wsdl/WEB-INF/lib/geronimo-stax
+ -api_1.0_spec-1.0.1.jar wsdl/WEB-INF/lib/woodstox-core-asl-4.1.2.jar 
+ wsdl/WEB-INF/lib/stax2-api-3.1.1.jar wsdl/WEB-INF/lib/geronimo-jaxws_
+ 2.2_spec-1.1.jar wsdl/WEB-INF/lib/antlr-2.7.7.jar wsdl/WEB-INF/lib/xm
+ lbeans-2.5.0.jar wsdl/WEB-INF/lib/xml-resolver-1.2.jar wsdl/WEB-INF/l
+ ib/jaxb-api-2.2.6.jar wsdl/WEB-INF/lib/geronimo-javamail_1.4_spec-1.7
+ .1.jar wsdl/WEB-INF/lib/geronimo-activation_1.1_spec-1.1.jar wsdl/WEB
+ -INF/lib/geronimo-annotation_1.0_spec-1.1.1.jar wsdl/WEB-INF/lib/jett
+ y-server-7.5.4.v20111024.jar wsdl/WEB-INF/lib/jetty-continuation-7.5.
+ 4.v20111024.jar wsdl/WEB-INF/lib/jetty-http-7.5.4.v20111024.jar wsdl/
+ WEB-INF/lib/jetty-io-7.5.4.v20111024.jar wsdl/WEB-INF/lib/jetty-util-
+ 7.5.4.v20111024.jar wsdl/WEB-INF/lib/jetty-security-7.5.4.v20111024.j
+ ar wsdl/WEB-INF/lib/slf4j-api-1.6.2.jar wsdl/WEB-INF/lib/geronimo-ser
+ vlet_2.5_spec-1.1.2.jar wsdl/WEB-INF/lib/geronimo-jms_1.1_spec-1.1.1.
+ jar wsdl/WEB-INF/lib/spring-jms-3.0.7.RELEASE.jar wsdl/WEB-INF/lib/ao
+ palliance-1.0.jar wsdl/WEB-INF/lib/spring-aop-3.0.7.RELEASE.jar wsdl/
+ WEB-INF/lib/spring-expression-3.0.7.RELEASE.jar wsdl/WEB-INF/lib/spri
+ ng-asm-3.0.7.RELEASE.jar wsdl/WEB-INF/lib/spring-tx-3.0.7.RELEASE.jar
+  wsdl/WEB-INF/lib/commons-lang-2.6.jar wsdl/WEB-INF/lib/asm-3.3.1.jar
+  wsdl/WEB-INF/lib/saaj-impl-1.3.18.jar wsdl/WEB-INF/lib/mimepull-1.7.
+ jar wsdl/WEB-INF/lib/js-1.7R2.jar wsdl/WEB-INF/lib/jsr311-api-1.1.1.j
+ ar wsdl/WEB-INF/lib/oauth-provider-20100527.jar wsdl/WEB-INF/lib/oaut
+ h-20100527.jar wsdl/WEB-INF/lib/geronimo-servlet_3.0_spec-1.0.jar wsd
+ l/WEB-INF/lib/ehcache-core-2.5.1.jar wsdl/WEB-INF/lib/wss4j-1.6.6.jar
+  wsdl/WEB-INF/lib/xmlsec-1.5.2.jar wsdl/WEB-INF/lib/opensaml-2.5.1-1.
+ jar wsdl/WEB-INF/lib/openws-1.4.2-1.jar wsdl/WEB-INF/lib/xmltooling-1
+ .3.2-1.jar wsdl/WEB-INF/lib/joda-time-1.6.2.jar wsdl/WEB-INF/lib/comm
+ ons-logging-1.1.1.jar wsdl/WEB-INF/lib/xalan-2.7.1.jar wsdl/WEB-INF/l
+ ib/serializer-2.7.1.jar wsdl/WEB-INF/lib/neethi-3.0.2.jar wsdl/WEB-IN
+ F/lib/spring-core-${spring.version}.jar wsdl/WEB-INF/lib/spring-beans
+ -4.3.13.RELEASE.jar wsdl/WEB-INF/lib/spring-context-${spring.version}
+ .jar wsdl/WEB-INF/lib/spring-test-${spring.version}.jar wsdl/WEB-INF/
+ lib/zkclient-0.10.jar wsdl/WEB-INF/lib/zookeeper-3.4.8.jar wsdl/WEB-I
+ NF/lib/slf4j-log4j12-1.6.1.jar wsdl/WEB-INF/lib/jline-0.9.94.jar wsdl
+ /WEB-INF/lib/netty-3.7.0.Final.jar wsdl/WEB-INF/lib/jsp-2.1-6.0.0.jar
+  wsdl/WEB-INF/lib/core-3.1.1.jar wsdl/WEB-INF/lib/servlet-api-2.5-6.0
+ .0.jar wsdl/WEB-INF/lib/jetty-util-6.0.0.jar wsdl/WEB-INF/lib/jsp-api
+ -2.1-6.0.0.jar wsdl/WEB-INF/lib/ant-1.6.5.jar wsdl/WEB-INF/lib/log4j-
+ 1.2.17.jar wsdl/WEB-INF/lib/jaxb-impl-2.1.13.jar wsdl/WEB-INF/lib/com
+ mons-logging-1.2.jar wsdl/WEB-INF/lib/spring-aop-${spring.version}.ja
+ r wsdl/WEB-INF/lib/spring-expression-${spring.version}.jar wsdl/WEB-I
+ NF/lib/slf4j-api-1.6.1.jar wsdl/WEB-INF/lib/spring-web-${spring.versi
+ on}.jar wsdl/WEB-INF/lib/cxf-rt-frontend-simple-3.1.6.jar wsdl/WEB-IN
+ F/lib/cxf-core-3.1.6.jar wsdl/WEB-INF/lib/cxf-rt-bindings-soap-3.1.6.
+ jar wsdl/WEB-INF/lib/cxf-rt-databinding-jaxb-3.1.6.jar wsdl/WEB-INF/l
+ ib/jaxb-core-2.2.11.jar wsdl/WEB-INF/lib/cxf-rt-wsdl-3.1.6.jar wsdl/W
+ EB-INF/lib/asm-5.0.4.jar wsdl/WEB-INF/lib/cxf-rt-transports-http-3.1.
+ 6.jar wsdl/WEB-INF/lib/woodstox-core-asl-4.4.1.jar wsdl/WEB-INF/lib/s
+ tax2-api-3.1.4.jar wsdl/WEB-INF/lib/xmlschema-core-2.2.1.jar wsdl/WEB
+ -INF/lib/jaxb-impl-2.2.11.jar wsdl/WEB-INF/lib/wsdl4j-1.6.3.jar wsdl/
+ WEB-INF/lib/cxf-bundle-3.0.0-milestone2.jar wsdl/WEB-INF/lib/jaxb-xjc
+ -2.1.13.jar wsdl/WEB-INF/lib/xmlschema-core-2.1.0.jar wsdl/WEB-INF/li
+ b/xmlbeans-2.6.0.jar wsdl/WEB-INF/lib/woodstox-core-asl-4.2.0.jar wsd
+ l/WEB-INF/lib/jetty-server-8.1.14.v20131031.jar wsdl/WEB-INF/lib/jett
+ y-continuation-8.1.14.v20131031.jar wsdl/WEB-INF/lib/jetty-http-8.1.1
+ 4.v20131031.jar wsdl/WEB-INF/lib/jetty-io-8.1.14.v20131031.jar wsdl/W
+ EB-INF/lib/jetty-util-8.1.14.v20131031.jar wsdl/WEB-INF/lib/jetty-sec
+ urity-8.1.14.v20131031.jar wsdl/WEB-INF/lib/slf4j-api-1.7.5.jar wsdl/
+ WEB-INF/lib/httpcore-nio-4.3.1.jar wsdl/WEB-INF/lib/httpcore-4.3.1.ja
+ r wsdl/WEB-INF/lib/httpasyncclient-4.0.jar wsdl/WEB-INF/lib/httpclien
+ t-4.3.2.jar wsdl/WEB-INF/lib/commons-codec-1.9.jar wsdl/WEB-INF/lib/m
+ ina-core-2.0.7.jar wsdl/WEB-INF/lib/javax.ws.rs-api-2.0.jar wsdl/WEB-
+ INF/lib/javax.annotation-api-1.2.jar wsdl/WEB-INF/lib/ehcache-2.7.4.j
+ ar wsdl/WEB-INF/lib/wss4j-ws-security-dom-2.0.0-rc1.jar wsdl/WEB-INF/
+ lib/wss4j-ws-security-common-2.0.0-rc1.jar wsdl/WEB-INF/lib/jasypt-1.
+ 9.0.jar wsdl/WEB-INF/lib/xmlsec-2.0.0-rc1.jar wsdl/WEB-INF/lib/opensa
+ ml-2.6.0.jar wsdl/WEB-INF/lib/openws-1.5.0.jar wsdl/WEB-INF/lib/xmlto
+ oling-1.4.0.jar wsdl/WEB-INF/lib/joda-time-2.2.jar wsdl/WEB-INF/lib/w
+ ss4j-policy-2.0.0-rc1.jar wsdl/WEB-INF/lib/wss4j-ws-security-stax-2.0
+ .0-rc1.jar wsdl/WEB-INF/lib/wss4j-bindings-wss10-2.0.0-rc1.jar wsdl/W
+ EB-INF/lib/wss4j-bindings-wsu10-2.0.0-rc1.jar wsdl/WEB-INF/lib/wss4j-
+ bindings-wss11-2.0.0-rc1.jar wsdl/WEB-INF/lib/wss4j-bindings-wssc-2.0
+ .0-rc1.jar wsdl/WEB-INF/lib/wss4j-ws-security-dom-2.0.0-rc1-tests.jar
+  wsdl/WEB-INF/lib/wss4j-ws-security-policy-stax-2.0.0-rc1.jar wsdl/WE
+ B-INF/lib/neethi-3.0.3.jar wsdl/WEB-INF/lib/cxf-rt-transports-http-3.
+ 0.0-milestone2.jar wsdl/WEB-INF/lib/cxf-core-3.0.0-milestone2.jar wsd
+ l/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar wsdl/WEB-INF/lib/spring-a
+ sm-3.0.5.RELEASE.jar wsdl/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar 
+ wsdl/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar wsdl/WEB-INF/lib/sp
+ ring-expression-3.0.5.RELEASE.jar wsdl/WEB-INF/lib/spring-test-3.0.5.
+ RELEASE.jar wsdl/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar wsdl/WEB-IN
+ F/lib/spring-aop-3.0.5.RELEASE.jar
+
