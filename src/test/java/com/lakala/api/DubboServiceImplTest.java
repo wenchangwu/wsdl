@@ -7,7 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath*:dubbo_consume.xml"})
+@ContextConfiguration(locations = {"classpath*:webservice-demo-consumer.xml"})
 public class DubboServiceImplTest {
 
     @Autowired
@@ -16,5 +16,6 @@ public class DubboServiceImplTest {
     @Test
     public void testPrintWorld() {
         String str=dubboService.printWorld("this is just a test");
+        System.out.println(str);
     }
 }
